@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   body {
@@ -25,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
   :root {
     --white: #FFFFFF;
     --black: #000000;
-    --background: #e91c5d;
+    --background: #e4e9ed;
   }
 `;
 

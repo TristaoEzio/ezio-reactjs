@@ -4,9 +4,8 @@ export const Container = styled.button<{
   loading?: boolean;
 }>`
   border: 0;
-  padding: 0.45rem;
-  margin-top: 30px;
-  border-radius: 60px;
+  padding: 0.25rem;
+  border-radius: 4px;
   background: var(--background);
   opacity: ${(props) =>
     props.disabled ? 0.7 : 1};
@@ -24,3 +23,13 @@ export const Container = styled.button<{
     font-size: 1rem;
   }
 `;
+
+export const Title = styled.h1`
+  font-size: 3rem;
+`
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`

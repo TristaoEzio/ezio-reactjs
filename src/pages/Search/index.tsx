@@ -9,18 +9,18 @@ function Search() {
   return (
     <Container>
       <SearchArea>
-        <h1>FIAP</h1>
-        <h2>Educação que transforma</h2>
+        <h1>Ezio</h1>
+        <h2>Biografia</h2>
         <input
           value={username}
           onChange={handleInput}
           type="text"
           name="username"
           id="username"
-          placeholder="Digite o nome do usuário"
+          placeholder="Escreva seu Prompt"
         />
         <Button
-          text="Buscar"
+          text="Enviar"
           onClick={throwUser}
         />
       </SearchArea>

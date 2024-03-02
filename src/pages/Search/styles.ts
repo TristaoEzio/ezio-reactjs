@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 480px;
+  max-width: 680px;
   height: 95vh;
   margin: 10px auto;
   gap: 10px;
@@ -20,21 +20,21 @@ export const SearchArea = styled.div`
   align-items: center;
   background: #fff9;
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 14px;
   width: 100%;
-  max-height: 250px;
+  max-height: 350px;
 
   input {
     border: 0;
     margin: 1rem;
-    padding: 0.5rem;
+    padding: 1.2rem;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 60px;
   }
 
   button {
     width: 100%;
-    background-color: var(--background);
+    background-color: var(--black);
     color: var(--white);
     font-weight: bold;
     height: 40px;

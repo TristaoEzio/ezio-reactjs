@@ -18,8 +18,8 @@ export function SignUp() {
   return (
     <DefaultContainer>
       <Content>
-        <h1>FIAP</h1>
-        <strong>Educação que transforma!</strong>
+        <h1>Ezio • SignUp</h1>
+        <strong>Mobile Developer</strong>
         <Formik
           initialValues={initialValues}
           validationSchema={signupSchema}

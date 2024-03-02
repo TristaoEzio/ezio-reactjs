@@ -21,7 +21,7 @@ export const Container = styled.div`
 
   button {
     width: 80%;
-    background-color: var(--white);
+    background-color: var(--black);
     color: var(--background);
     font-weight: bold;
     height: 40px;

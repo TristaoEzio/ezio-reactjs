@@ -12,7 +12,9 @@ import {
   Results,
   Search,
   SignIn,
-  SignUp,
+  //SignUp,
+  //Profile,
+  Biography,
 } from "../pages";
 
 const routes = [
@@ -20,7 +22,8 @@ const routes = [
   <Route path="/search" element={<Search />} />,
   <Route path="/results" element={<Results />} />,
   <Route path="/signin" element={<SignIn />} />,
-  <Route path="/signup" element={<SignUp />} />,
+//   <Route path="/profile" element={<Profile />} />,
+  <Route path="/biography" element={<Biography />} />,
   <Route path="*" element={<NotFound />} />,
 ];
 
